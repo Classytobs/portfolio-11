@@ -12,17 +12,17 @@ export default function Contact() {
                 <div className='p-4'>
                     <h4>Email</h4>
                     <h5>adewumitobi@gmail.com</h5>
-                    <a href="mailto:adewumitobi20@gmail.com"  target="_blank">Send a message</a>
+                    <a href="mailto:adewumitobi20@gmail.com"  target="blank">Send a message</a>
                 </div>
                 <div className='p-4'>
                     <h4>LinkedIn</h4>
                     <h5>Oluwatobi Adewumi</h5>
-                    <a href="rhttps://ng.linkedin.com/in/toyoabasi-bob-9835a7245?trk=people-guest_people_search-card" taget="_blank">Send a message</a>
+                    <a href="#" taget="blank">Send a message</a>
                 </div>
                 <div className='p-4'>
                     <h4>WhatsApp</h4>
                     <h5>+2348105045530</h5>
-                    <a href="https://wa.me/08105045530" target="_blank">Send a message</a>
+                    <a href="https://wa.me/08105045530" target="blank">Send a message</a>
                 </div>
             </div>
             <div className='flex flex-col content-center items-start gap-y-4 '>
