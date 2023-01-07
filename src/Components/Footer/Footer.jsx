@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className='flex flex-row bg-gray-500 h-16 px-36 py-5 max-w-full content-center justify-between items-center font-serif text-white'>
+    <div className='flex flex-row bg-gray-500 h-32 px-36 py-5 max-w-full content-center justify-between items-center font-serif text-white'>
         <div>
             <a href="#">Classytobs</a>
         </div>
