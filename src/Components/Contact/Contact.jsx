@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div className='flex flex-col bg-zinc-900 gap-y-8 min-h-screen px-16 py-16 max-w-full justify-between content-center items-center font-serif text-white'>
         
-        <div className='flex flex-row cursor-pointer justify-center content-center items-center bg-yellow-700 shadow-md h-fit px-5 py-3 rounded-lg hover:bg-yellow-800 text-4xl'>
+        <div className='flex flex-row cursor-pointer justify-center content-center items-center bg-yellow-700 shadow-md h-fit px-5 py-3 rounded-lg hover:bg-yellow-800 text-3xl text-center'>
             <div>
                 <h1 className='mr-5'>Get in Touch</h1>
             </div>
@@ -21,7 +21,7 @@ export default function Contact() {
         <div className='flex flex-col gap-y-8 justify-between content-center items-center'>
 
             <div className='text-center'>
-                <p className='text-4xl'>Are you ready? Contact me so we can create something truly spectacular! </p>
+                <p className='text-2xl'>Are you ready? Contact me so we can create something truly spectacular! </p>
             </div>
 
             <div className='flex flex-col content-center gap-y-4'>

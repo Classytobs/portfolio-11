@@ -33,7 +33,7 @@ export default function About() {
             <div className='flex flex-col gap-y-8 mt-10 mb-10 text-start'>
               <div className='rounded-full cursor-pointer border-solid border-2 border-blue-500 bg-slate-500 hover:bg-slate-600 divide-y divide-slate-400 shadow-md w-52 h-72 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-6'>
                 <h1 className='text-3xl p-3'>Skills</h1>
-                  <ul className="marker:text-blue-500 list-disc pl-8 space-y-3 pt-2">
+                  <ul className="marker:text-blue-500 list-disc pl-8 space-y-3 pt-2 text-sm">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JAVASCRIPT</li>
@@ -43,8 +43,8 @@ export default function About() {
               </div>
               <div className='rounded-full divide-y cursor-pointer divide-slate-400 bg-slate-500 hover:bg-slate-600 border-solid border-2 border-blue-500 shadow-md w-52 h-72 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-6'>
                 <h1 className='text-3xl p-3'>Education</h1>
-                  <ul className="marker:text-blue-500 list-disc pl-8 space-y-3 pt-2">
-                    <li>B.engr Civil Engineering</li>
+                  <ul className="marker:text-blue-500 list-disc pl-8 space-y-3 pt-2 text-sm">
+                    <li>B.ENGR CIVIL ENGINEERING</li>
                   </ul>
               </div>
             </div>

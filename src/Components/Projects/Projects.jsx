@@ -32,7 +32,7 @@ export default function Projects() {
 
   return (
     <div className='flex flex-col  text-white bg-zinc-900 min-h-screen px-16 py-10 max-w-full justify-between gap-y-8 content-center items-center font-serif'>
-            <div  className=' flex flex-row cursor-pointer justify-center content-center items-center bg-yellow-700 shadow-md h-fit px-5 py-3 rounded-lg hover:bg-yellow-800 text-4xl'>
+            <div  className=' flex flex-row cursor-pointer justify-center content-center items-center bg-yellow-700 shadow-md h-fit px-5 py-3 rounded-lg hover:bg-yellow-800 text-3xl text-center'>
               <div className='mr-5'>
                   <h5>My Recent Work</h5>
               </div>
@@ -44,11 +44,11 @@ export default function Projects() {
             </div>
 
             <div className='flex flex-col text-center items-center justify-between content-center gap-y-10'>
-              <div className='text-4xl'>
+              <div className='text-2xl'>
                 <h1>You can check out some of my recent work by clicking on the github or live demo button.</h1>
               </div>
 
-              <div className='flex flex-col justify-between items-center content-center text-center gap-y-8'>
+              <div className='flex flex-col justify-between items-center content-center text-center text-2xl gap-y-8'>
                   {data.map(({id, image, title, github, demo}) => {
                     return(
                     <div key={id} className='cursor-pointer border-solid border-2 border-indigo-600 p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-52'>
@@ -58,10 +58,10 @@ export default function Projects() {
                       <h3 className='text-2xl'>{title}</h3>
                         <div className='mt-5 mb-5 justify-between w-full flex flex-col gap-y-5 text-center'>
                           <div>
-                            <a href={github} target='blank' className='bg-blue-700 shadow-lg h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Github</a>  
+                            <a href={github} target='blank' className='bg-blue-700 shadow-md h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Github</a>  
                           </div>
                           <div>
-                            <a href={demo} target='blank'  className='bg-blue-700 shadow-lg h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Live Demo</a>
+                            <a href={demo} target='blank'  className='bg-blue-700 shadow-md h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Live Demo</a>
                           </div>     
                         </div>
                     </div>
