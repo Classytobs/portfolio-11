@@ -57,7 +57,7 @@ export default function Contact() {
                                 type="text"
                                 name="name"
                                 placeholder='Full name' 
-                                className='px-3 block py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic placeholder:text-slate-400 focus:outline-none focus:border-sky-500'
+                                className='px-3 block py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic placeholder:text-slate-400 focus:outline-none focus:border-sky-500 text-black'
                             />
                             </label>
                         </div>
@@ -68,7 +68,7 @@ export default function Contact() {
                                 name="email"
                                 type="email"
                                 placeholder='Email' 
-                                className='px-3 block py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic placeholder:text-slate-400 focus:outline-none focus:border-sky-500'
+                                className='px-3 block py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic placeholder:text-slate-400 focus:outline-none focus:border-sky-500 text-black'
                             />
                             </label>
                         </div>
@@ -79,7 +79,7 @@ export default function Contact() {
                                 name="number"
                                 type="number"
                                 placeholder='Phone number' 
-                                className='px-3 block py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic placeholder:text-slate-400 focus:outline-none focus:border-sky-500'
+                                className='px-3 block py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic placeholder:text-slate-400 focus:outline-none focus:border-sky-500 text-black'
                             />
                             </label>
                         </div>
@@ -89,7 +89,7 @@ export default function Contact() {
                             <textarea
                                 rows='5'
                                 name="message"
-                                className='px-3 block py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic placeholder:text-slate-400 focus:outline-none focus:border-sky-500'
+                                className='px-3 block py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic placeholder:text-slate-400 focus:outline-none focus:border-sky-500 text-black'
                             ></textarea>
                             </label>
                         </div>
