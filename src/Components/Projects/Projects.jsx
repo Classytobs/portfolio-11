@@ -53,7 +53,7 @@ export default function Projects() {
                     return(
                     <div key={id} className='cursor-pointer p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-52'>
                         <div className='mb-5'>
-                          <img src={image} alt={title}  className='h-44 rounded-lg border-solid border-2 border-indigo-600' />
+                          <img src={image} alt={title}  className='h-44 rounded-lg' />
                         </div>
                       <h3 className='text-2xl'>{title}</h3>
                         <div className='mt-5 mb-5 justify-between w-full flex flex-col gap-y-5 text-center'>

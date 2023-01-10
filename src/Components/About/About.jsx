@@ -26,9 +26,10 @@ export default function About() {
               </p>
             </div>
             <div className='flex flex-row cursor-pointer justify-between space-x-11'>
-              <img src={linkedin} alt='linkedin' className='border-solid border-2 border-blue-500 p-2 rounded-full bg-slate-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' />
-              <img src={twitter} alt='twitter' className='border-solid border-2 border-blue-500 p-2 rounded-full bg-slate-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' />
-              <img src={github} alt='github' className='border-solid border-2 border-blue-500 p-2 rounded-full  bg-slate-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' />
+              
+              <img src={twitter} alt='twitter' className='border-solid border-2 border-white p-2 rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' />
+              <img src={linkedin} alt='linkedin' className='border-solid border-2 border-white p-2 rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' />
+              <img src={github} alt='github' className='border-solid border-2 border-white p-2 rounded-full  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' />
             </div>
             <div className='flex flex-col gap-y-8 mt-10 mb-10 text-start'>
               <div className='rounded-full cursor-pointer bg-slate-500 hover:bg-slate-600 divide-y divide-slate-400 shadow-md w-52 h-72 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-6'>
