@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className='flex flex-col bg-zinc-900 min-h-screen px-16 py-8 max-w-full justify-between gap-y-8 content-center items-center font-serif text-white'>
 
-        <div className='flex flex-row cursor-pointer justify-center content-center items-center bg-yellow-700 shadow-md h-fit px-5 py-3 rounded-lg hover:bg-yellow-800 text-4xl'>
+        <div className='flex flex-row cursor-pointer justify-center content-center items-center bg-yellow-700 shadow-md h-fit px-5 py-3 rounded-lg hover:bg-yellow-800 text-3xl text-center'>
             <div className='mr-5'>
               <h1>About me</h1>
             </div>
@@ -20,7 +20,7 @@ export default function About() {
 
         <div className='flex flex-col text-center items-center justify-between gap-y-5 content-center'>
             <div>
-              <p className='text-4xl'>
+              <p className='text-2xl'>
               My name is Oluwatobi Adewumi. I'm a front-End Developer who enjoys creatively building a functional user interface.
               I'm constantly learning and keeping myself up-to-date with the latest technologies.
               </p>
