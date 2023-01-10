@@ -15,7 +15,7 @@ export default function Home() {
       <div className='flex flex-col justify-between content-center items-center gap-y-3'>
             <div className='w-52 h-64 flex justify-center items-center cursor-pointer 
             transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 mb-3'>
-              <img src={img0} alt='me'className='h-64 w-52 rounded-xl '/>
+              <img src={img0} alt='me'className='h-64 w-52 rounded-full '/>
             </div>
           
           <div className=' flex flex-col text-white px-4 justify-between content-center items-center text-3xl font-serif text-center'>
