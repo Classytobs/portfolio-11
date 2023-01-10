@@ -30,8 +30,8 @@ export default function About() {
               <img src={twitter} alt='twitter' className='border-solid border-2 border-blue-500 p-2 rounded-full bg-slate-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' />
               <img src={github} alt='github' className='border-solid border-2 border-blue-500 p-2 rounded-full  bg-slate-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' />
             </div>
-            <div className='flex flex-row mt-10 mb-10 text-start'>
-              <div className='mr-12 rounded-full cursor-pointer border-solid border-2 border-blue-500 bg-slate-500 hover:bg-slate-600 divide-y divide-slate-400 shadow-md w-52 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-6'>
+            <div className='flex flex-col gap-y-8 mt-10 mb-10 text-start'>
+              <div className='rounded-full cursor-pointer border-solid border-2 border-blue-500 bg-slate-500 hover:bg-slate-600 divide-y divide-slate-400 shadow-md w-52 h-72 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-6'>
                 <h1 className='text-3xl p-3'>Skills</h1>
                   <ul className="marker:text-blue-500 list-disc pl-8 space-y-3 pt-2">
                     <li>HTML</li>
@@ -41,7 +41,7 @@ export default function About() {
                     <li>GIT & GITHUB</li>
                   </ul>
               </div>
-              <div className='rounded-full divide-y cursor-pointer divide-slate-400 bg-slate-500 hover:bg-slate-600 border-solid border-2 border-blue-500 shadow-md w-52 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-6'>
+              <div className='rounded-full divide-y cursor-pointer divide-slate-400 bg-slate-500 hover:bg-slate-600 border-solid border-2 border-blue-500 shadow-md w-52 h-72 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-6'>
                 <h1 className='text-3xl p-3'>Education</h1>
                   <ul className="marker:text-blue-500 list-disc pl-8 space-y-3 pt-2">
                     <li>B.engr Civil Engineering</li>

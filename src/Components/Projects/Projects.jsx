@@ -48,10 +48,10 @@ export default function Projects() {
                 <h1>You can check out some of my recent work by clicking on the github or live demo button.</h1>
               </div>
 
-              <div className='flex flex-row justify-between items-center content-center text-center gap-x-4'>
+              <div className='flex flex-col justify-between items-center content-center text-center gap-y-8'>
                   {data.map(({id, image, title, github, demo}) => {
                     return(
-                    <div key={id} className='cursor-pointer border-solid border-2 border-indigo-600 p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-1/3'>
+                    <div key={id} className='cursor-pointer border-solid border-2 border-indigo-600 p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-52'>
                         <div className='mb-5'>
                           <img src={image} alt={title}  className='h-44 rounded-lg border-solid border-2 border-indigo-600' />
                         </div>

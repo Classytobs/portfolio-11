@@ -24,18 +24,18 @@ export default function Contact() {
                 <p className='text-4xl'>Are you ready? Contact me so we can create something truly spectacular! </p>
             </div>
 
-            <div className='flex flex-row content-center gap-x-2'>
-                    <div className='p-4 cursor-pointer flex flex-col justify-between content-center gap-y-2 border-solid border-2 border-indigo-600 p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-1/3'>
+            <div className='flex flex-col content-center gap-y-4'>
+                    <div className='p-4 cursor-pointer flex flex-col items-center justify-between content-center gap-y-2 border-solid border-2 border-indigo-600 p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-52'>
                         <h4 className='flex flex-row items-center gap-x-2'><MdOutlineEmail /> Email </h4>
                         {/* <h5>adewumitobi20@gmail.com</h5> */}
                         <a href="mailto:adewumitobi20@gmail.com" target="blank"className='bg-blue-700 text-center shadow-lg h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Send a message</a>
                     </div>
-                    <div className='p-4 cursor-pointer flex flex-col justify-between content-center gap-y-2 border-solid border-2 border-indigo-600 p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-1/3'>
+                    <div className='p-4 cursor-pointer flex flex-col items-center justify-between content-center gap-y-2 border-solid border-2 border-indigo-600 p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-52'>
                         <h4 className='flex flex-row items-center gap-x-2'> <FaLinkedin /> LinkedIn</h4>
                         {/* <h5>Oluwatobi Adewumi</h5> */}
                         <a href="#" taget="blank" className='bg-blue-700 text-center shadow-lg h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Send a message</a>
                     </div>
-                    <div className='p-4 cursor-pointer flex flex-col justify-between content-center gap-y-2 border-solid border-2 border-indigo-600 p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-1/3'>
+                    <div className='p-4 cursor-pointer flex flex-col items-center justify-between content-center gap-y-2 border-solid border-2 border-indigo-600 p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-52'>
                         <h4 className='flex flex-row items-center gap-x-2'> <BsWhatsapp /> WhatsApp</h4>
                         {/* <h5>+2348105045530</h5> */}
                         <a href="https://wa.me/08105045530" target="blank" className='bg-blue-700 text-center shadow-lg h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Send a message</a>
