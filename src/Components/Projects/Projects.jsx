@@ -32,7 +32,7 @@ export default function Projects() {
 
   return (
     <div className='flex flex-col  text-white bg-zinc-900 min-h-screen px-10 py-10 max-w-full justify-between gap-y-8 content-center items-center font-serif'>
-            <div  className=' flex flex-row cursor-pointer justify-center content-center items-center bg-yellow-700 shadow-md h-fit px-5 py-3 rounded-lg hover:bg-yellow-800 text-3xl text-center'>
+            <div  className=' flex flex-row cursor-pointer justify-center content-center items-center  bg-blue-700 hover:bg-blue-500 shadow-md h-fit px-5 py-3 rounded-lg text-3xl text-center'>
               <div className='mr-5'>
                   <h5>Recent Work</h5>
               </div>
@@ -51,7 +51,7 @@ export default function Projects() {
               <div className='flex flex-col justify-between items-center content-center text-center text-2xl gap-y-8'>
                   {data.map(({id, image, title, github, demo}) => {
                     return(
-                    <div key={id} className='cursor-pointer border-solid border-2 border-indigo-600 p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-52'>
+                    <div key={id} className='cursor-pointer p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-52'>
                         <div className='mb-5'>
                           <img src={image} alt={title}  className='h-44 rounded-lg border-solid border-2 border-indigo-600' />
                         </div>

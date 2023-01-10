@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <div className='relative'>
     <div className='flex flex-row content-center items-center justify-center fixed inset-x-1/2 inset-y-full'>
-    <div className='flex flex-row text-white mb-12 h-fit w-fit justify-between gap-x-8 rounded-lg border-solid border-2 border-blue-500 items-center content-center bg-slate-500 hover:bg-slate-600 shadow-md p-2'>
+    <div className='flex flex-row text-white mb-12 h-fit w-fit justify-between gap-x-8 rounded-lg items-center content-center bg-slate-500 hover:bg-slate-600 shadow-md p-2'>
       <a href="#" title="Home" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>

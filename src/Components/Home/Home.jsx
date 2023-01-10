@@ -24,8 +24,8 @@ export default function Home() {
               <h5>Frontend Developer</h5>
             </div>
             
-            <div className='border-solid mt-6 border-2 border-blue-500 py-3 px-6 max-w-fit rounded-md text-2xl 
-            animate-bounce hover:bg-slate-600 cursor-pointer'>
+            <div className='border-solid mt-6 py-3 px-6 max-w-fit rounded-md text-2xl 
+            animate-bounce  bg-blue-700 hover:bg-blue-500 cursor-pointer'>
                 <h3>Hire me</h3>
             </div>
             
