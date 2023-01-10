@@ -31,7 +31,7 @@ export default function Projects() {
       ]
 
   return (
-    <div className='flex flex-col  text-white bg-zinc-900 min-h-screen px-52 py-10 max-w-full justify-between gap-y-8 content-center items-center font-serif'>
+    <div className='flex flex-col  text-white bg-zinc-900 min-h-screen px-16 py-10 max-w-full justify-between gap-y-8 content-center items-center font-serif'>
             <div  className=' flex flex-row cursor-pointer justify-center content-center items-center bg-yellow-700 shadow-md h-fit px-5 py-3 rounded-lg hover:bg-yellow-800 text-4xl'>
               <div className='mr-5'>
                   <h5>My Recent Work</h5>

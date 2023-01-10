@@ -5,7 +5,7 @@ import { BsWhatsapp } from "react-icons/bs"
 
 export default function Contact() {
   return (
-    <div className='flex flex-col bg-zinc-900 gap-y-8 min-h-screen px-52 py-16 max-w-full justify-between content-center items-center font-serif text-white'>
+    <div className='flex flex-col bg-zinc-900 gap-y-8 min-h-screen px-16 py-16 max-w-full justify-between content-center items-center font-serif text-white'>
         
         <div className='flex flex-row cursor-pointer justify-center content-center items-center bg-yellow-700 shadow-md h-fit px-5 py-3 rounded-lg hover:bg-yellow-800 text-4xl'>
             <div>
