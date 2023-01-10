@@ -34,7 +34,7 @@ export default function Projects() {
     <div className='flex flex-col  text-white bg-zinc-900 min-h-screen px-10 py-10 max-w-full justify-between gap-y-8 content-center items-center font-serif'>
             <div  className=' flex flex-row cursor-pointer justify-center content-center items-center bg-yellow-700 shadow-md h-fit px-5 py-3 rounded-lg hover:bg-yellow-800 text-3xl text-center'>
               <div className='mr-5'>
-                  <h5>My Recent Work</h5>
+                  <h5>Recent Work</h5>
               </div>
               <div>
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
