@@ -5,7 +5,7 @@ import linkedin from '../../Assets/linkedin.png'
 
 export default function About() {
   return (
-    <div className='flex flex-col bg-zinc-900 min-h-screen px-16 py-8 max-w-full justify-between gap-y-8 content-center items-center font-serif text-white'>
+    <div className='flex flex-col bg-zinc-900 min-h-screen px-10 py-5 max-w-full justify-between gap-y-8 content-center items-center font-serif text-white'>
 
         <div className='flex flex-row cursor-pointer justify-center content-center items-center bg-yellow-700 shadow-md h-fit px-5 py-3 rounded-lg hover:bg-yellow-800 text-3xl text-center'>
             <div className='mr-5'>
