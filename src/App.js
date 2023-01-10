@@ -34,7 +34,8 @@ function App() {
     }
   }, [theme])
   return (
-    <ThemeContext.Provider value={{theme, changeTheme}}>
+    <div className='overflow-hidden'>
+    <ThemeContext.Provider value={{theme, changeTheme}} >
       <Navbar />
       <Home />
       <About />
@@ -42,6 +43,7 @@ function App() {
       <Contact />
       <Footer />
     </ThemeContext.Provider>
+    </div>
   );
 }
 
