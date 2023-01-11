@@ -2,6 +2,15 @@ import React from 'react'
 import github from '../../Assets/github.png'
 import twitter from '../../Assets/twitter.png'
 import linkedin from '../../Assets/linkedin.png'
+import html from '../../Assets/html.svg'
+import bootstrap from '../../Assets/bootstrap.svg'
+import css from '../../Assets/css.svg'
+import github2 from '../../Assets/github2.svg'
+import js from '../../Assets/js.svg'
+import react from '../../Assets/react.svg'
+import tailwind from '../../Assets/tailwind.svg'
+import git from '../../Assets/git.svg'
+import py from '../../Assets/py.png'
 
 export default function About() {
   return (
@@ -31,20 +40,24 @@ export default function About() {
               <img src={linkedin} alt='linkedin' className='border-solid border-2 border-white p-2 rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' />
               <img src={github} alt='github' className='border-solid border-2 border-white p-2 rounded-full  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' />
             </div>
-            <div className='flex flex-col gap-y-8 mt-10 mb-10 text-start'>
+            <div className='flex flex-col gap-y-8 mt-10 mb-10 text-center'>
               <div className='rounded-lg cursor-pointer bg-slate-500 hover:bg-slate-600 divide-y divide-slate-400 shadow-md w-66 h-66 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-6'>
                 <h1 className='text-3xl p-3'>Skills</h1>
-                  <ul className="marker:text-blue-500 list-disc pl-8 space-y-3 pt-2 text-sm">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVASCRIPT</li>
-                    <li>PYTHON</li>
-                    <li>GIT & GITHUB</li>
+                  <ul className="space-y-3 pt-2 text-sm ">
+                    <li className='flex flex-row content-center items-center justify-between'>HTML <img src={html} alt='html' className='h-8 w-12 '/> </li>
+                    <li className='flex flex-row content-center items-center justify-between'>CSS <img src={css} alt='css' className='h-8 w-12 '/></li>
+                    <li className='flex flex-row content-center items-center justify-between'>TAILWIND <img src={tailwind} alt='tailwind' className='h-8 w-12 '/></li>
+                    <li className='flex flex-row content-center items-center justify-between'>BOOTSTRAP <img src={bootstrap} alt='html' className='h-8 w-12 '/></li>
+                    <li className='flex flex-row content-center items-center justify-between'>JAVASCRIPT <img src={js} alt='html' className='h-8 w-12 '/></li>
+                    <li className='flex flex-row content-center items-center justify-between'>REACT <img src={react} alt='html' className='h-8 w-12 '/></li>
+                    <li className='flex flex-row content-center items-center justify-between'>PYTHON <img src={py} alt='html' className='h-8 w-12 '/></li>
+                    <li className='flex flex-row content-center items-center justify-between'>GIT <img src={git} alt='html' className='h-8 w-12 '/></li>
+                    <li className='flex flex-row content-center items-center justify-between'>GITHUB <img src={github2} alt='html' className='h-8 w-12 '/></li>
                   </ul>
               </div>
               <div className='rounded-lg divide-y cursor-pointer divide-slate-400 bg-slate-500 hover:bg-slate-600 shadow-md w-66 h-66 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-6'>
                 <h1 className='text-3xl p-3'>Education</h1>
-                  <ul className="marker:text-blue-500 list-disc pl-8 space-y-3 pt-2 text-sm">
+                  <ul className="space-y-3 pt-2 text-sm">
                     <li>B.ENGR CIVIL ENGINEERING</li>
                   </ul>
               </div>
