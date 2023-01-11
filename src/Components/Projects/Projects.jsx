@@ -17,7 +17,7 @@ export default function Projects() {
         {
           id:2,
           image:linktree,
-          title: "Linktree",
+          title: "A Linktree",
           github: "https://github.com/Classytobs/hng-linktree-2.git",
           demo: "https://linktree2.netlify.app/"
         },
@@ -51,17 +51,17 @@ export default function Projects() {
               <div className='flex flex-col justify-between items-center content-center text-center text-2xl gap-y-8'>
                   {data.map(({id, image, title, github, demo}) => {
                     return(
-                    <div key={id} className='cursor-pointer p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-60'>
-                        <div className='mb-5'>
-                          <img src={image} alt={title}  className='h-44' />
+                    <div key={id} className='cursor-pointer p-5 rounded-lg bg-slate-500 hover:bg-slate-600 '>
+                        <div className='mb-3'>
+                          <img src={image} alt={title} className=''  />
                         </div>
-                      <h3 className='text-2xl'>{title}</h3>
-                        <div className='mt-5 mb-5 justify-between w-full flex flex-col gap-y-5 text-center'>
+                      <h3 className='text-base'>{title}</h3>
+                        <div className='mt-3 mb-3 justify-between w-full flex flex-col gap-y-3 text-center'>
                           <div>
-                            <a href={github} target='blank' className='bg-blue-700 shadow-md h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Github</a>  
+                            <a href={github} target='blank' className='bg-blue-700 text-base shadow-md h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Github</a>  
                           </div>
                           <div>
-                            <a href={demo} target='blank'  className='bg-blue-700 shadow-md h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Live Demo</a>
+                            <a href={demo} target='blank'  className='bg-blue-700 shadow-md text-base  h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Live Demo</a>
                           </div>     
                         </div>
                     </div>
