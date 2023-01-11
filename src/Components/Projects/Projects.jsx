@@ -51,9 +51,9 @@ export default function Projects() {
               <div className='flex flex-col justify-between items-center content-center text-center text-2xl gap-y-8'>
                   {data.map(({id, image, title, github, demo}) => {
                     return(
-                    <div key={id} className='cursor-pointer p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-52'>
+                    <div key={id} className='cursor-pointer p-3 rounded-lg bg-slate-500 hover:bg-slate-600 w-60'>
                         <div className='mb-5'>
-                          <img src={image} alt={title}  className='h-44 rounded-lg' />
+                          <img src={image} alt={title}  className='h-44' />
                         </div>
                       <h3 className='text-2xl'>{title}</h3>
                         <div className='mt-5 mb-5 justify-between w-full flex flex-col gap-y-5 text-center'>

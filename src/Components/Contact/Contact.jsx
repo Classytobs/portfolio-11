@@ -89,6 +89,8 @@ export default function Contact() {
                             <textarea
                                 rows='5'
                                 name="message"
+                                type="text"
+                                placeholder="Send a message"
                                 className='px-3 block py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic placeholder:text-slate-400 focus:outline-none focus:border-sky-500 text-black'
                             ></textarea>
                             </label>
