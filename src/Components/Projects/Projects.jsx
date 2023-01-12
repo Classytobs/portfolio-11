@@ -48,7 +48,7 @@ export default function Projects() {
                 <h1>You can check out some of my recent work by clicking on the github or live demo button.</h1>
               </div>
 
-              <div className='flex flex-col justify-between items-center content-center text-center w-80 text-2xl gap-y-8'>
+              <div className='flex flex-col justify-between items-center content-center text-center w-72 text-2xl gap-y-8'>
                   {data.map(({id, image, title, github, demo}) => {
                     return(
                     <div key={id} className='cursor-pointer p-5 rounded-lg bg-slate-500 hover:bg-slate-600 w-full'>
