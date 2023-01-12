@@ -21,7 +21,7 @@ export default function Home() {
           <div className=' flex flex-col text-white px-4 justify-between content-center items-center text-3xl font-serif text-center'>
             <div className='mb-6 font-medium'>
               <h1 className='text-4xl italic hover:not-italic font-serif'>Oluwatobi Adewumi</h1>
-              <h5>Frontend Developer</h5>
+              <h5>{`Frontend Developer ${theme} `}</h5>
             </div>
             
             <div className='border-solid mt-6 py-3 px-6 max-w-fit rounded-md text-2xl 

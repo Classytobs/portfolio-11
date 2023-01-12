@@ -5,7 +5,7 @@ export default function Navbar() {
     
   return (
     <div className='relative'>
-    <div className='flex flex-row justify-between items-center content-center p-10 md:px-32 bg-zinc-900 text-white text-2xl font-serif'>
+    <div className='flex flex-row justify-between items-center content-center p-8 md:px-32 bg-zinc-900 text-white text-2xl font-serif'>
       <div className='text-4xl' >
         <h1>Classytobs</h1>
       </div>

@@ -16,23 +16,25 @@ function App() {
     theme === themes.dark ? setTheme(themes.light) : setTheme(themes.dark)
   }
   
-  let docBody= document.body;
   useEffect(() => {
     switch (theme) {
         case themes.light:
-          docBody.classList.remove("bg-light");
-          docBody.classList.remove("text-dark")
-          docBody.classList.add("bg-dark");
-          docBody.classList.add("text-light")
+          document.body.classList.remove("bg-light");
+          document.body.classList.remove("text-dark")
+          document.body.classList.add("bg-dark");
+          document.body.classList.add("text-light")
           break;
         case themes.dark:
-          docBody.classList.remove("bg-dark");
-          docBody.classList.remove("text-light")
-          docBody.classList.add("bg-light");
-          docBody.classList.add("text-dark")   
+          document.body.classList.remove("bg-dark");
+          document.body.classList.remove("text-light")
+          document.body.classList.add("bg-light");
+          document.body.classList.add("text-dark")   
           break;
+
+        default:
     }
   }, [theme])
+  
   return (
     <div className='overflow-hidden'>
     <ThemeContext.Provider value={{theme, changeTheme}} >
