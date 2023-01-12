@@ -19,7 +19,7 @@ function App() {
 
   function changeTheme() {
     // console.log(theme)
-    theme === themes.dark ? setTheme(themes.light) : setTheme(themes.dark)
+    setTheme(!theme)
   }
 
   useEffect( () => {
