@@ -1,5 +1,4 @@
 import React from 'react'
-import { MdOutlineEmail } from "react-icons/md"
 import linkedin3 from '../../Assets/linkedin3.png'
 import WhatsApp2 from '../../Assets/WhatsApp2.svg'
 import gmail2 from '../../Assets/gmail2.png'

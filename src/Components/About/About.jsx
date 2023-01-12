@@ -36,9 +36,9 @@ export default function About() {
             </div>
             <div className='flex flex-row cursor-pointer justify-between space-x-11'>
               
-              <img src={twitter} alt='twitter' className='border-solid border-2 border-white p-2 rounded-full transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-110 duration-300' />
-              <img src={linkedin} alt='linkedin' className='border-solid border-2 border-white p-2 rounded-lg transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-110 duration-300' />
-              <img src={github} alt='github' className='border-solid border-2 border-white p-2 rounded-full  transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-110 duration-300' />
+            <a href="https://twitter.com/engr_tobs" target="blank"> <img src={twitter} alt='twitter' className='border-solid border-2 border-white p-2 rounded-full transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-110 duration-300' /></a>
+            <a href="https://linkedin.com/in/oluwatobi-adewumi-879548213" target="blank"><img src={linkedin} alt='linkedin' className='border-solid border-2 border-white p-2 rounded-lg transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-110 duration-300' /></a>
+            <a href="https://github.com/Classytobs" target="blank"> <img src={github} alt='github' className='border-solid border-2 border-white p-2 rounded-full  transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-110 duration-300' /></a>
             </div>
 
             <div className='flex flex-col gap-y-8 mt-10 mb-10 text-center w-72'>
