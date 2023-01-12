@@ -11,10 +11,10 @@ export default function Footer() {
         <div>
             <a href="home">Classytobs</a>
         </div>
-        <div className='flex flex-col gap-y-5 md:flex-row md:gap-x-5 items-center justify-between content-center'>
-            <a href="https://linkedin.com/in/oluwatobi-adewumi-879548213" target='blank'><img src={linkedin3} alt='linkedin2' className='h-10 w-22 '/></a>
-            <a href="https://wa.me/8105045530" target="blank"><img src={WhatsApp2} alt='whatsapp2' className='h-10 w-10 '/></a>
-            <a href="mailto:adewumitobi20@gmail.com" target="blank"><img src={gmail2} alt='gmail2' className='h-8 w-10 '/></a>
+        <div className='flex flex-row gap-x-5 items-center justify-between content-center'>
+            <a href="https://linkedin.com/in/oluwatobi-adewumi-879548213" target='blank'><img src={linkedin3} alt='linkedin2' className='h-6 w-16 '/></a>
+            <a href="https://wa.me/8105045530" target="blank"><img src={WhatsApp2} alt='whatsapp2' className='h-6 w-8 '/></a>
+            <a href="mailto:adewumitobi20@gmail.com" target="blank"><img src={gmail2} alt='gmail2' className='h-5 w-6 '/></a>
         </div>
         <div>
             <small>&copy; Classytobs. All rights reserved.</small>
