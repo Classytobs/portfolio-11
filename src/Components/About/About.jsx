@@ -14,7 +14,7 @@ import py from '../../Assets/py.png'
 
 export default function About() {
   return (
-    <div className='flex flex-col bg-zinc-900 min-h-screen px-10 md:px-72 py-5 max-w-full justify-between gap-y-8 content-center items-center font-serif text-white'>
+    <div className='flex flex-col bg-zinc-900 min-h-screen px-12 md:px-72 py-5 max-w-full justify-between gap-y-8 content-center items-center font-serif text-white'>
 
         <div className='flex flex-row cursor-pointer justify-center content-center items-center  bg-blue-700 hover:bg-blue-500 shadow-md h-fit px-5  py-3 rounded-lg text-3xl text-center'>
             <div className='mr-5'>
@@ -41,7 +41,7 @@ export default function About() {
               <img src={github} alt='github' className='border-solid border-2 border-white p-2 rounded-full  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' />
             </div>
 
-            <div className='flex flex-col gap-y-8 mt-10 mb-10 text-center w-96'>
+            <div className='flex flex-col gap-y-8 mt-10 mb-10 text-center w-80'>
               <div className='rounded-lg cursor-pointer bg-slate-500 hover:bg-slate-600 divide-y divide-slate-400 shadow-md w-66 h-66 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-6'>
                 <h1 className='text-3xl p-3'>Skills</h1>
                   <ul className="space-y-3 pt-2 text-sm ">
