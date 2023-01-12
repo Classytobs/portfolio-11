@@ -8,10 +8,10 @@ export default function Home() {
 
   return (
     <div className={theme? 'flex flex-col text-white bg-zinc-900 gap-y-6 justify-start content-center py-8 min-h-screen max-w-full items-center': 'flex flex-col text-black gap-y-6 justify-start content-center py-8 min-h-screen max-w-full items-center'}>
-      <div className='p-2 cursor-pointer' onClick={changeTheme} >
+      {/* <div className='p-2 cursor-pointer' onClick={changeTheme} >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
-      </div>
+      </div> */}
       <div className='flex flex-col justify-between content-center items-center gap-y-3'>
             <div className='flex justify-center items-center cursor-pointer animate-fade-in-down
             md:transition md:ease-in-out md:delay-150 md:hover:-translate-y-1 md:hover:scale-110 w-72 h-72 duration-300 md:h-80 md:w-80 rounded-full mb-3'>
