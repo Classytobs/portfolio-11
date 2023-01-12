@@ -18,7 +18,7 @@ export default function Home() {
               <img src={img0} alt='me'className='h-full w-full rounded-full'/>
             </div>
           
-          <div className=' flex flex-col px-4 mt-6 justify-between content-center items-center text-3xl font-serif text-center'>
+          <div className=' flex flex-col px-4 mt-2 justify-between content-center items-center text-3xl font-serif text-center'>
             <div className='mb-6 font-medium'>
               <h1 className='text-4xl italic hover:not-italic font-serif'>Oluwatobi Adewumi</h1>
               <h5>Frontend Developer</h5>
