@@ -5,7 +5,7 @@ import { BsWhatsapp } from "react-icons/bs"
 
 export default function Contact() {
   return (
-    <div className='flex flex-col bg-zinc-900 gap-y-8 min-h-screen px-10 py-16 max-w-full justify-between content-center items-center font-serif text-white'>
+    <div className='flex flex-col bg-zinc-900 gap-y-8 min-h-screen px-12 md:px-72 py-16 max-w-full justify-between content-center items-center font-serif text-white'>
         
         <div className='flex flex-row cursor-pointer justify-center content-center items-center  bg-blue-700 hover:bg-blue-500 shadow-md h-fit px-5 py-3 rounded-lg text-3xl text-center'>
             <div>
@@ -24,16 +24,17 @@ export default function Contact() {
                 <p className='text-2xl'>Are you ready? Contact me so we can create something truly spectacular! </p>
             </div>
 
-            <div className='flex flex-col content-center gap-y-4'>
-                    <div className='p-4 cursor-pointer flex flex-col items-center justify-between content-center gap-y-2 p-3 rounded-lg bg-slate-500 hover:bg-slate-600'>
-                        <h4 className='flex flex-row items-center gap-x-2'><MdOutlineEmail /> Email </h4>
-                         <h5>adewumitobi20@gmail.com</h5> 
-                        <a href="mailto:adewumitobi20@gmail.com" target="blank"className='bg-blue-700 text-center shadow-lg h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Send a message</a>
-                    </div>
+            <div className='flex flex-col content-center justify-center gap-y-4 md:flex-row md:gap-x-10 w-72 md:w-full'>
+                    
                     <div className='p-4 cursor-pointer flex flex-col items-center justify-between content-center gap-y-2 p-3 rounded-lg bg-slate-500 hover:bg-slate-600'>
                         <h4 className='flex flex-row items-center gap-x-2'> <FaLinkedin /> LinkedIn</h4>
                         <h5>Oluwatobi Adewumi</h5>
                         <a href="#" taget="blank" className='bg-blue-700 text-center shadow-lg h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Send a message</a>
+                    </div>
+                    <div className='p-4 cursor-pointer flex flex-col items-center justify-between content-center gap-y-2 p-3 rounded-lg bg-slate-500 hover:bg-slate-600'>
+                        <h4 className='flex flex-row items-center gap-x-2'><MdOutlineEmail /> Email </h4>
+                         <h5>adewumitobi20@gmail.com</h5> 
+                        <a href="mailto:adewumitobi20@gmail.com" target="blank"className='bg-blue-700 text-center shadow-lg h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Send a message</a>
                     </div>
                     <div className='p-4 cursor-pointer flex flex-col items-center justify-between content-center gap-y-2 p-3 rounded-lg bg-slate-500 hover:bg-slate-600 '>
                         <h4 className='flex flex-row items-center gap-x-2'> <BsWhatsapp /> WhatsApp</h4>

@@ -31,7 +31,7 @@ export default function Projects() {
       ]
 
   return (
-    <div className='flex flex-col  text-white bg-zinc-900 min-h-screen px-10 md:px-72 px-py-10 max-w-full justify-between gap-y-8 content-center items-center font-serif'>
+    <div className='flex flex-col  text-white bg-zinc-900 min-h-screen px-10 md:px-72 px-py-10 max-w-full justify-between md:justify-evenly gap-y-8 content-center items-center font-serif'>
             <div  className=' flex flex-row cursor-pointer justify-center content-center items-center  bg-blue-700 hover:bg-blue-500 shadow-md h-fit px-5 py-3 rounded-lg text-3xl text-center'>
               <div className='mr-5'>
                   <h5>Recent Work</h5>
@@ -48,7 +48,7 @@ export default function Projects() {
                 <h1>You can check out some of my recent work by clicking on the github or live demo button.</h1>
               </div>
 
-              <div className='flex flex-col justify-between items-center content-center text-center w-72 text-2xl gap-y-8'>
+              <div className='flex flex-col md:flex-row md:gap-x-10 md:w-full justify-between items-center content-center text-center w-72 text-2xl gap-y-8'>
                   {data.map(({id, image, title, github, demo}) => {
                     return(
                     <div key={id} className='cursor-pointer p-5 rounded-lg bg-slate-500 hover:bg-slate-600 w-full'>

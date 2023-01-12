@@ -36,13 +36,13 @@ export default function About() {
             </div>
             <div className='flex flex-row cursor-pointer justify-between space-x-11'>
               
-              <img src={twitter} alt='twitter' className='border-solid border-2 border-white p-2 rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' />
-              <img src={linkedin} alt='linkedin' className='border-solid border-2 border-white p-2 rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' />
-              <img src={github} alt='github' className='border-solid border-2 border-white p-2 rounded-full  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' />
+              <img src={twitter} alt='twitter' className='border-solid border-2 border-white p-2 rounded-full transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-110 duration-300' />
+              <img src={linkedin} alt='linkedin' className='border-solid border-2 border-white p-2 rounded-lg transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-110 duration-300' />
+              <img src={github} alt='github' className='border-solid border-2 border-white p-2 rounded-full  transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-110 duration-300' />
             </div>
 
             <div className='flex flex-col gap-y-8 mt-10 mb-10 text-center w-72'>
-              <div className='rounded-lg cursor-pointer bg-slate-500 hover:bg-slate-600 divide-y divide-slate-400 shadow-md w-66 h-66 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-6'>
+              <div className='rounded-lg cursor-pointer bg-slate-500 hover:bg-slate-600 divide-y divide-slate-400 shadow-md w-66 h-66 transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-110 duration-300 p-6'>
                 <h1 className='text-3xl p-3'>Skills</h1>
                   <ul className="space-y-3 pt-2 text-sm ">
                     <li className='flex flex-row content-center items-center justify-between'>HTML <img src={html} alt='html' className='h-8 w-12 '/> </li>
@@ -56,7 +56,7 @@ export default function About() {
                     <li className='flex flex-row content-center items-center justify-between'>GITHUB <img src={github2} alt='html' className='h-8 w-12 '/></li>
                   </ul>
               </div>
-              <div className='rounded-lg divide-y cursor-pointer divide-slate-400 bg-slate-500 hover:bg-slate-600 shadow-md w-66 h-66 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-6'>
+              <div className='rounded-lg divide-y cursor-pointer divide-slate-400 bg-slate-500 hover:bg-slate-600 shadow-md w-66 h-66 transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-110 duration-300 p-6'>
                 <h1 className='text-3xl p-3'>Education</h1>
                   <ul className="space-y-3 pt-2 text-sm">
                     <li>B.ENGR CIVIL ENGINEERING</li>
