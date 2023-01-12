@@ -6,8 +6,8 @@ export default function Navbar({toggle}) {
   return (
     <div className='relative'>
     <div className='flex flex-row justify-between items-center content-center p-8 md:px-32 bg-zinc-900 text-white text-2xl font-serif'>
-      <div className='text-4xl' >
-        <h1>Classytobs</h1>
+      <div className='text-4xl cursor-pointer' >
+      <a href="#home">Classytobs</a>
       </div>
 
       <div className='flex flex-col gap-y-5 md:flex md:flex-row md:items-center md:gap-x-5 hidden md:block'>

@@ -14,7 +14,7 @@ import py from '../../Assets/py.png'
 
 export default function About() {
   return (
-    <div className='flex flex-col bg-zinc-900 min-h-screen px-12 md:px-72 py-5 max-w-full justify-between gap-y-8 content-center items-center font-serif text-white'>
+    <div id='about' className='flex flex-col bg-zinc-900 min-h-screen px-12 md:px-72 py-5 max-w-full justify-between gap-y-8 content-center items-center font-serif text-white'>
 
         <div className='flex flex-row cursor-pointer justify-center content-center items-center  bg-blue-700 hover:bg-blue-500 shadow-md h-fit px-5  py-3 rounded-lg text-3xl text-center'>
             <div className='mr-5'>
