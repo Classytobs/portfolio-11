@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiOutlineBars } from "react-icons/ai";
 
-export default function Navbar() {
+export default function Navbar({toggle}) {
     
   return (
     <div className='relative'>
@@ -17,7 +17,7 @@ export default function Navbar() {
         <a href="#contact">Contact</a>
       </div>
 
-      <div className='md:hidden'>
+      <div className='md:hidden' onClick={toggle}>
         <AiOutlineBars/>
       </div>
 

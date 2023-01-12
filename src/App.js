@@ -6,15 +6,36 @@ import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import { ThemeContext, themes } from './Components/Context/Theme-context';
+import Dropdown from './Components/Dropdown/Dropdown';
 
 
 function App() {
   const [theme, setTheme] = useState(themes.dark);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  }
 
   function changeTheme() {
     // console.log(theme)
     theme === themes.dark ? setTheme(themes.light) : setTheme(themes.dark)
   }
+
+  useEffect( () => {
+    const hideMenu = () => {
+      if(window.innerWidth > 768 && isOpen) {
+        setIsOpen(false)
+      }
+    }
+
+    window.addEventListener ('resize', hideMenu)
+
+    return () => {
+      window.removeEventListener('resize', hideMenu)
+    }
+
+  })
   
   useEffect(() => {
     switch (theme) {
@@ -38,7 +59,8 @@ function App() {
   return (
     <div className='overflow-hidden'>
     <ThemeContext.Provider value={{theme, changeTheme}} >
-      <Navbar />
+      <Navbar toggle={toggle}/>
+      <Dropdown isOpen={isOpen} toggle={toggle} />
       <Home />
       <About />
       <Projects />
