@@ -32,7 +32,7 @@ export default function Projects() {
 
   return (
     <div id='pr' className='flex flex-col  text-white bg-zinc-900 min-h-screen px-10 md:px-72 px-py-10 max-w-full justify-between md:justify-evenly gap-y-8 content-center items-center font-serif'>
-            <div  className=' flex flex-row cursor-pointer justify-center content-center items-center  bg-blue-700 hover:bg-blue-500 shadow-md h-fit px-5 py-3 rounded-lg text-3xl text-center'>
+            <div  className=' flex flex-row mt-24 cursor-pointer justify-center content-center items-center  bg-blue-700 hover:bg-blue-500 shadow-md h-fit px-5 py-3 rounded-lg text-3xl text-center'>
               <div className='mr-5'>
                   <h5>Recent Work</h5>
               </div>

@@ -16,7 +16,7 @@ export default function About() {
   return (
     <div id='about' className='flex flex-col bg-zinc-900 min-h-screen px-12 md:px-72 py-5 max-w-full justify-between gap-y-8 content-center items-center font-serif text-white'>
 
-        <div className='flex flex-row cursor-pointer justify-center content-center items-center  bg-blue-700 hover:bg-blue-500 shadow-md h-fit px-5  py-3 rounded-lg text-3xl text-center'>
+        <div className='flex flex-row mt-24 cursor-pointer justify-start content-center items-center  bg-blue-700 hover:bg-blue-500 shadow-md h-fit px-5  py-3 rounded-lg text-3xl text-center'>
             <div className='mr-5'>
               <h1>About me</h1>
             </div>
