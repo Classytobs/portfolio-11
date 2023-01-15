@@ -1,10 +1,12 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import meta from '../../Assets/meta.PNG'
 import linktree from '../../Assets/linktree.PNG'
 import port1 from '../../Assets/port1.PNG'
+import { ThemeContext } from '../Context/Theme-context'
 
 
 export default function Projects() {
+  const {theme, changeTheme}=useContext(ThemeContext);
 
     const data = [
         {
@@ -31,7 +33,8 @@ export default function Projects() {
       ]
 
   return (
-    <div id='pr' className='flex flex-col  text-white bg-zinc-900 min-h-screen px-10 md:px-72 px-py-10 max-w-full justify-between md:justify-evenly gap-y-8 content-center items-center font-serif'>
+    <div id='pr' className={theme? 'flex flex-col  text-white bg-zinc-900 min-h-screen px-10 md:px-72 px-py-10 max-w-full justify-between md:justify-evenly gap-y-8 content-center items-center font-serif':
+    'flex flex-col  text-black min-h-screen px-10 md:px-72 px-py-10 max-w-full justify-between md:justify-evenly gap-y-8 content-center items-center font-serif'}>
             <div  className=' flex flex-row mt-24 cursor-pointer justify-center content-center items-center  bg-blue-700 hover:bg-blue-500 shadow-md h-fit px-5 py-3 rounded-lg text-3xl text-center'>
               <div className='mr-5'>
                   <h5>Recent Work</h5>

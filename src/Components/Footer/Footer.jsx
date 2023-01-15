@@ -1,12 +1,17 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import linkedin3 from '../../Assets/linkedin3.png'
 import WhatsApp2 from '../../Assets/WhatsApp2.svg'
 import gmail2 from '../../Assets/gmail2.png'
+import { ThemeContext } from '../Context/Theme-context'
 
 
 export default function Footer() {
+
+  const {theme, changeTheme}=useContext(ThemeContext);
+
   return (
-    <div className='flex flex-col text-center bg-slate-500 hover:bg-slate-600 min-h-32 gap-y-5 px-16 py-10 text-2xl max-w-full content-center justify-between items-center font-serif text-white'>
+    <div className={theme?'flex flex-col text-center bg-slate-500 hover:bg-slate-600 min-h-32 gap-y-5 px-16 py-10 text-2xl max-w-full content-center justify-between items-center font-serif text-white':
+    'flex flex-col text-center bg-slate-500 hover:bg-slate-600 min-h-32 gap-y-5 px-16 py-10 text-2xl max-w-full content-center justify-between items-center font-serif text-black'}>
         <div>
             <a href="home">Classytobs</a>
         </div>

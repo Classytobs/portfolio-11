@@ -1,11 +1,14 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import { AiOutlineBars } from "react-icons/ai";
+import { ThemeContext } from '../Context/Theme-context'
 
 export default function Navbar({toggle}) {
+  const {theme, changeTheme}=useContext(ThemeContext);
     
   return (
     <div className='relative'>
-    <div className='flex flex-row fixed w-full justify-between items-center content-center px-8 py-5 md:px-32 bg-zinc-900 text-white text-2xl font-serif'>
+    <div className={theme? 'flex flex-row fixed w-full z-50 justify-between items-center content-center px-8 py-5 md:px-32 bg-zinc-900 text-white text-2xl font-serif':
+    'flex flex-row fixed w-full justify-between z-50 items-center content-center px-8 py-5 md:px-32 text-black text-2xl font-serif bg-white'} >
       <div className='text-4xl cursor-pointer' >
       <a href="#home">Classytobs</a>
       </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import github from '../../Assets/github.png'
 import twitter from '../../Assets/twitter.png'
 import linkedin from '../../Assets/linkedin.png'
@@ -11,12 +11,17 @@ import react from '../../Assets/react.svg'
 import tailwind from '../../Assets/tailwind.svg'
 import git from '../../Assets/git.svg'
 import py from '../../Assets/py.png'
+import { ThemeContext } from '../Context/Theme-context'
 
 export default function About() {
-  return (
-    <div id='about' className='flex flex-col bg-zinc-900 min-h-screen px-12 md:px-72 py-5 max-w-full justify-between gap-y-8 content-center items-center font-serif text-white'>
+  const {theme, changeTheme}=useContext(ThemeContext);
 
-        <div className='flex flex-row mt-24 cursor-pointer justify-start content-center items-center  bg-blue-700 hover:bg-blue-500 shadow-md h-fit px-5  py-3 rounded-lg text-3xl text-center'>
+  return (
+    <div id='about' className={theme? 'flex flex-col bg-zinc-900 min-h-screen px-12 md:px-72 py-5 max-w-full justify-between gap-y-8 content-center items-center font-serif text-white': 
+    'flex flex-col min-h-screen px-12 md:px-72 py-5 max-w-full justify-between gap-y-8 content-center items-center font-serif text-black'}>
+
+        <div className='flex flex-row mt-24 cursor-pointer justify-start content-center items-center  bg-blue-700 hover:bg-blue-500 shadow-md h-fit px-5  py-3 rounded-lg text-3xl text-center'
+        onClick={changeTheme}>
             <div className='mr-5'>
               <h1>About me</h1>
             </div>
