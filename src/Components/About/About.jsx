@@ -9,18 +9,18 @@ export default function About() {
   const {theme}=useContext(ThemeContext);
 
   return (
-    <div id='about' className={theme? 'bg-slate-200 flex flex-col text-black justify-between  min-h-screen max-w-full px-32 py-8 font-serif':
-    'bg-slate-900 flex flex-col text-white justify-between min-h-screen max-w-full px-32 py-8 font-serif'
+    <div id='about' className={theme? 'bg-slate-200 flex flex-col md:flex-col lg:flex-col text-black justify-between  min-h-screen max-w-full px-6 md:px-16 lg:px-32 py-8 font-serif gap-y-2':
+    'bg-slate-900 flex flex-col md:flex-col lg:flex-col text-white justify-between min-h-screen max-w-full px-6 md:px-16 lg:px-32 py-8 gap-y-2 font-serif'
      }>
             <div className='text-4xl font-bold tracking-wide'>
                 <h1>About me</h1>
               </div>
 
-          <div className='flex flex-row'>
-            <div className='mr-12 w-2/5'>
+          <div className='flex flex-col gap-y-2 md:flex-row'>
+            <div className='md:mr-12 w-full md:w-1/2 lg:w-2/5'>
               <img src={TOBS002} alt='me'/>
             </div>
-            <div className='flex flex-col w-3/5 h-screen justify-center gap-8'>
+            <div className='flex flex-col w-full md:w-1/2 lg:w-3/5 md:justify-center'>
               <div>
                 <h1 className='text-4xl font-bold'>Frontend Developer</h1>
                 </div>
