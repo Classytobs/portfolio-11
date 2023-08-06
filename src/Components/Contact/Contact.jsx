@@ -1,28 +1,88 @@
 import React,{useContext} from 'react'
-import { MdOutlineEmail } from "react-icons/md"
-import { FaLinkedin } from "react-icons/fa"
-import { BsWhatsapp } from "react-icons/bs"
 import { ThemeContext } from '../Context/Theme-context'
+import illustrator2 from '../../Assets/illustrator2.jpg'
 
 export default function Contact() {
-    const {theme, changeTheme}=useContext(ThemeContext);
+    const {theme}=useContext(ThemeContext);
 
   return (
-    <div id='contact' className={theme?'flex flex-col bg-zinc-900 gap-y-8 min-h-screen px-12 md:px-72 py-16 max-w-full justify-between content-center items-center font-serif text-white':
-    'flex flex-col gap-y-8 min-h-screen px-12 md:px-72 py-16 max-w-full justify-between content-center items-center font-serif text-black'}>
-        
-        <div className='flex flex-row mt-24 cursor-pointer justify-center content-center items-center  bg-blue-700 hover:bg-blue-500 shadow-md h-fit px-5 py-3 rounded-lg text-3xl text-center'>
-            <div>
-                <h1 className='mr-5'>Get in Touch</h1>
+    <div id='contact' className={theme?'flex flex-col bg-slate-100 gap-y-8 min-h-screen px-32 text-black py-8 font-serif':
+    'flex flex-col bg-slate-800 gap-y-8 min-h-screen px-32 text-white py-8 font-serif'}>
+        <div>
+            <h1 className='text-4xl font-bold tracking-wide'>Contact Me</h1>
+        </div>
+        <div className='flex flex-row justify-start gap-x-8 w-full'>
+            <div className='w-1/2 mr-8'>
+            <img src={illustrator2} alt='me'className='h-full w-full rounded-md'/>
+
             </div>
-            <div>
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m-6 3.75l3 3m0 0l3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75"></path>
-                </svg>
+            <div className='w-1/2'>
+            <form className='flex flex-col justify-between gap-y-6'>
+                        <div className='flex flex-col'>
+                            <label>
+                            <span>Your name</span>
+                            </label>
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder='Full name' 
+                                className='px-3 py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic focus:outline-none focus:border-sky-500 text-black'
+                            />
+                            
+                        </div>
+
+                        <div className='flex flex-col'>
+                            <label>
+                            <span >Email address</span>
+                            </label>
+                            <input
+                                name="email"
+                                type="email"
+                                placeholder='Email' 
+                                className='px-3 py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic focus:outline-none focus:border-sky-500 text-black'
+                            />
+                            
+                        </div>
+                        <div className='flex flex-col'>
+                            <label>
+                            <span>Phone number</span>
+                            </label>
+                            <input
+                                name="number"
+                                type="number"
+                                placeholder='Phone number' 
+                                className='px-3 py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic focus:outline-none focus:border-sky-500 text-black'
+                            />
+                            
+                        </div>
+                        <div className='flex flex-col'>
+                            <label>
+                            <span>Message</span>
+                            </label>
+                            <textarea
+                                rows='5'
+                                name="message"
+                                type="text"
+                                placeholder="Send a message"
+                                className='px-3 py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic focus:outline-none focus:border-sky-500 text-black'>
+                                </textarea>
+                            
+                        </div>
+
+                        <div>
+                            <button
+                            type="submit"
+                            className=' shadow-md h-fit px-2 py-2 rounded-lg bg-blue-700 hover:bg-blue-500 text-white'>
+                            Contact me
+                            </button>
+                        </div>
+
+                        </form>
+               
             </div>            
         </div>
 
-        <div className='flex flex-col gap-y-8 justify-between content-center items-center'>
+        {/* <div className='flex flex-col gap-y-8 justify-between content-center items-center'>
 
             <div className='text-center'>
                 <p className='text-2xl'>Are you ready? Contact me so we can create something truly spectacular! </p>
@@ -54,68 +114,13 @@ export default function Contact() {
                         </h1>
                         </div>
                     <div>
-                        <form className="mt-6">
-                        <div>
-                            <label>
-                            <span>Your name</span>
-                            <input
-                                type="text"
-                                name="name"
-                                placeholder='Full name' 
-                                className='px-3 block py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic focus:outline-none focus:border-sky-500 text-black'
-                            />
-                            </label>
-                        </div>
-                        <div className="mb-2">
-                            <label>
-                            <span >Email address</span>
-                            <input
-                                name="email"
-                                type="email"
-                                placeholder='Email' 
-                                className='px-3 block py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic focus:outline-none focus:border-sky-500 text-black'
-                            />
-                            </label>
-                        </div>
-                        <div className="mb-2">
-                            <label>
-                            <span>Phone number</span>
-                            <input
-                                name="number"
-                                type="number"
-                                placeholder='Phone number' 
-                                className='px-3 block py-2 bg-white border-slate-300 rounded-md text-sm shadow-sm placeholder:italic focus:outline-none focus:border-sky-500 text-black'
-                            />
-                            </label>
-                        </div>
-                        <div className="mb-2">
-                            <label>
-                            <span>Message</span>
-                            <textarea
-                                rows='5'
-                                name="message"
-                                type="text"
-                                placeholder="Send a message"
-                                className='px-3 block py-2 bg-white border-solid border-2 border-slate-300 rounded-md text-sm shadow-sm placeholder:italic focus:outline-none focus:border-sky-500 text-black'>
-                                </textarea>
-                            </label>
-                        </div>
-
-                        <div class="mb-3">
-                            <button
-                            type="submit"
-                            className=' shadow-md h-fit px-2 py-2 rounded-lg bg-blue-700 hover:bg-blue-500'>
-                            Contact me
-                            </button>
-                        </div>
-
-                        </form>
+                        
                     </div>
     </div>
 
 
 
-        </div>
+        </div> */}
               
     </div>
   )

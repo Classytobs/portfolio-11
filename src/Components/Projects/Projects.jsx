@@ -1,78 +1,112 @@
 import React, {useContext} from 'react'
-import meta from '../../Assets/meta.PNG'
-import linktree from '../../Assets/linktree.PNG'
-import port1 from '../../Assets/port1.PNG'
+import meta from '../../Assets/meta.JPG'
+import excuse from '../../Assets/excuse.JPG'
+import speech from '../../Assets/speech.JPG'
+import todos from '../../Assets/todos.JPG'
 import { ThemeContext } from '../Context/Theme-context'
 
 
 export default function Projects() {
-  const {theme, changeTheme}=useContext(ThemeContext);
-
-    const data = [
-        {
-          id:1,
-          image:meta,
-          title: "Meta Bnb React App",
-          github: "https://github.com/Classytobs/meta-bnb3.git",
-          demo: "https://metabb.netlify.app/"
-        },
-        {
-          id:2,
-          image:linktree,
-          title: "A Linktree",
-          github: "https://github.com/Classytobs/hng-linktree-2.git",
-          demo: "https://linktree2.netlify.app/"
-        },
-        {
-          id:3,
-          image:port1,
-          title: "Personal Portfolio",
-          github: "https://github.com/Classytobs/Portfolio-1.git",
-          demo: "https://classy-tobs.netlify.app/"
-        },
-      ]
+  const {theme}=useContext(ThemeContext);
 
   return (
-    <div id='pr' className={theme? 'flex flex-col  text-white bg-zinc-900 min-h-screen px-10 md:px-72 px-py-10 max-w-full justify-between md:justify-evenly gap-y-8 content-center items-center font-serif':
-    'flex flex-col  text-black min-h-screen px-10 md:px-72 px-py-10 max-w-full justify-between md:justify-evenly gap-y-8 content-center items-center font-serif'}>
-            <div  className=' flex flex-row mt-24 cursor-pointer justify-center content-center items-center  bg-blue-700 hover:bg-blue-500 shadow-md h-fit px-5 py-3 rounded-lg text-3xl text-center'>
-              <div className='mr-5'>
-                  <h5>Recent Work</h5>
-              </div>
-              <div>
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m-6 3.75l3 3m0 0l3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75"></path>
-                </svg>
-              </div>
-            </div>
+    <div id='pr' className={theme? 'flex flex-col text-black bg-slate-200 min-h-screen px-32 gap-y-16 py-16 font-serif':
+    'flex flex-col bg-slate-900 text-white min-h-screen px-32 gap-y-16 py-16 font-serif'}>
 
-            <div className='flex flex-col text-center items-center justify-between content-center gap-y-10'>
-              <div className='text-2xl'>
-                <h1>You can check out some of my recent work by clicking on the github or live demo button.</h1>
+              <div className='text-4xl font-bold tracking-wide'>
+                <h1>Portfolio</h1>
               </div>
 
-              <div className='flex flex-col md:flex-row md:gap-x-10 md:w-full justify-between items-center content-center text-center w-72 text-2xl gap-y-8'>
-                  {data.map(({id, image, title, github, demo}) => {
-                    return(
-                    <div key={id} className='cursor-pointer p-5 rounded-lg bg-slate-500 hover:bg-slate-600 w-full'>
-                        <div className='mb-3'>
-                          <img src={image} alt={title} className='w-72'  />
-                        </div>
-                      <h3 className='text-base'>{title}</h3>
-                        <div className='mt-3 mb-3 justify-between w-full flex flex-col gap-y-3 text-center'>
-                          <div>
-                            <a href={github} target='blank' className='bg-blue-700 text-base shadow-md h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Github</a>  
-                          </div>
-                          <div>
-                            <a href={demo} target='blank'  className='bg-blue-700 shadow-md text-base  h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Live Demo</a>
-                          </div>     
-                        </div>
-                    </div>
-                    )
-                  })}
+              <div className='flex flex-col'>
+                <div className='flex flex-row gap-x-8'>
+                <img src={meta} alt='Meta Bnb React App' className='w-1/3 h-80 rounded-md shadow-lg' />
+                <div className='w-2/3 flex flex-col justify-between ml-12'>
+                  <div className='text-4xl font-bold'>A meta bnb app</div>
+                  <div><h1 className='text-2xl leading-relaxed'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Illo soluta voluptatum, earum dicta eaque eos amet officiis quisquam commodi?
+                 Culpa non tenetur aut nostrum sint tempora! Eum cupiditate ea deleniti.
+                 </h1>
+                 </div>
+                 <div className='flex flex-row gap-x-8'>
+                 <a href="https://github.com/Classytobs/meta-bnb3.git"
+                  target='blank' 
+                  className='bg-blue-700 text-white shadow-md h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Github Link</a>
+                 <a href="https://metabb.netlify.app/" target='blank'  className='bg-blue-700 shadow-md text-white  h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Live Demo</a>
+                 </div>
+                 </div>
 
-                  </div>
                 </div>
+
+              </div>
+
+              <div className='flex flex-col'>
+                <div className='flex flex-row gap-x-8'>
+                <div className='w-2/3 flex flex-col justify-between mr-12'>
+                <div className='text-4xl font-bold'>Todo list app</div>
+                  <div><h1 className='text-2xl leading-relaxed'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Illo soluta voluptatum, earum dicta eaque eos amet officiis quisquam commodi?
+                 Culpa non tenetur aut nostrum sint tempora! Eum cupiditate ea deleniti.
+                 </h1>
+                 </div>
+                 <div className='flex flex-row gap-x-8'>
+                 <a href="https://github.com/Classytobs/TODO-LIST-APP"
+                  target='blank' 
+                  className='bg-blue-700 text-white shadow-md h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Github Link</a>
+                 <a href="https://mytodos99.netlify.app/" target='blank'  className='bg-blue-700 shadow-md text-white  h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Live Demo</a>
+                 </div>
+                 </div>
+
+                 <img src={todos} alt='Todo list app' className='w-1/3 h-80 rounded-md shadow-lg' />
+
+                </div>
+
+              </div>
+
+              <div className='flex flex-col'>
+                <div className='flex flex-row gap-x-8'>
+                <img src={speech} alt='Meta Bnb React App' className='w-1/3 h-80 rounded-md shadow-lg' />
+                <div className='w-2/3 flex flex-col justify-between ml-12'>
+                <div className='text-4xl font-bold'>Speech synthetizer</div>
+                  <div><h1 className='text-2xl leading-relaxed'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Illo soluta voluptatum, earum dicta eaque eos amet officiis quisquam commodi?
+                 Culpa non tenetur aut nostrum sint tempora! Eum cupiditate ea deleniti.
+                 </h1>
+                 </div>
+                 <div className='flex flex-row gap-x-8'>
+                 <a href="https://github.com/Classytobs/Speech-synthetizer"
+                  target='blank' 
+                  className='bg-blue-700 text-white shadow-md h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Github Link</a>
+                 <a href="https://speechnarrator.netlify.app/" target='blank'  className='bg-blue-700 shadow-md text-white h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Live Demo</a>
+                 </div>
+                 </div>
+
+                </div>
+
+              </div>
+
+              <div className='flex flex-col'>
+                <div className='flex flex-row gap-x-8'>
+                <div className='w-2/3 flex flex-col justify-between mr-12'>
+                <div className='text-4xl font-bold'>Excuse app</div>
+                  <div><h1 className='text-2xl leading-relaxed'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Illo soluta voluptatum, earum dicta eaque eos amet officiis quisquam commodi?
+                 Culpa non tenetur aut nostrum sint tempora! Eum cupiditate ea deleniti.
+                 </h1>
+                 </div>
+                 <div className='flex flex-row gap-x-8'>
+                 <a href="https://github.com/Classytobs/Excuse-app"
+                  target='blank' 
+                  className='bg-blue-700 text-white shadow-md h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Github Link</a>
+                 <a href="https://excuseapp99.netlify.app/" target='blank'  className='bg-blue-700 shadow-md text-white  h-fit w-fit px-2 py-2 rounded-lg hover:bg-blue-500'>Live Demo</a>
+                 </div>
+                 </div>
+
+                 <img src={excuse} alt='Todo list app' className='w-1/3 h-80 rounded-md shadow-lg' />
+
+                </div>
+
+              </div>
+
     </div>
   )
 }

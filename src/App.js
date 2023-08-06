@@ -5,12 +5,13 @@ import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
+import Technologies from './Components/Technologies/Technologies';
 import { ThemeContext, themes } from './Components/Context/Theme-context';
 import Dropdown from './Components/Dropdown/Dropdown';
 
 
 function App() {
-  const [theme, setTheme] = useState(themes.dark);
+  const [theme, setTheme] = useState(themes.light);
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
@@ -63,6 +64,7 @@ function App() {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Home />
       <About />
+      <Technologies />
       <Projects />
       <Contact />
       <Footer />

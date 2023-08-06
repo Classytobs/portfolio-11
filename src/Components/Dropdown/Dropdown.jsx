@@ -2,7 +2,7 @@ import React,{useContext} from 'react'
 import { ThemeContext } from '../Context/Theme-context'
 
 export default function Dropdown({isOpen, toggle}) {
-  const {theme, changeTheme} = useContext(ThemeContext);
+  const {theme} = useContext(ThemeContext);
   return (
     <div className= {isOpen?'show' : 'hidden'}>
     <div className={theme?'flex fixed w-full flex-col mt-20 text-center items-center h-screen font-serif text-2xl gap-y-8 pt-6 bg-black text-white':'flex fixed w-full flex-col mt-20 text-center items-center h-screen font-serif text-2xl gap-y-8 pt-6 bg-white text-black'}
