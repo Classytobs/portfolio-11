@@ -16,11 +16,11 @@ export default function About() {
                 <h1>About me</h1>
               </div>
 
-          <div className='flex flex-col gap-y-2 md:flex-row'>
-            <div className='md:mr-12 w-full md:w-1/2 lg:w-2/5'>
+          <div className='flex flex-col gap-y-4 md:flex-row'>
+            <div className=' mb-2 md:mr-12 w-full md:w-1/2 lg:w-2/5'>
               <img src={TOBS002} alt='me'/>
             </div>
-            <div className='flex flex-col w-full md:w-1/2 lg:w-3/5 md:justify-center'>
+            <div className='flex flex-col gap-y-6 w-full md:w-1/2 lg:w-3/5 md:justify-center'>
               <div>
                 <h1 className='text-4xl font-bold'>Frontend Developer</h1>
                 </div>
