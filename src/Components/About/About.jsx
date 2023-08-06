@@ -17,7 +17,7 @@ export default function About() {
               </div>
 
           <div className='flex flex-col gap-y-4 md:flex-row'>
-            <div className=' mb-2 md:mr-12 w-full md:w-1/2 lg:w-2/5'>
+            <div className=' flex item-center content-center justify-center mb-2 md:mr-12 w-full md:w-1/2 lg:w-2/5'>
               <img src={TOBS002} alt='me'/>
             </div>
             <div className='flex flex-col gap-y-6 w-full md:w-1/2 lg:w-3/5 md:justify-center'>

@@ -37,8 +37,8 @@ export default function Home() {
 
     </div> 
 
-    <div className='ml-8 md:w-1/2 lg:w-2/5 w:full h-full'>
-              <img src={TOBS001} alt='me'className='h-full w-full'/>
+    <div className='flex item-center content-center justify-center md:ml-8 md:w-1/2 lg:w-2/5 w:full'>
+              <img src={TOBS001} alt='me'/>
             </div>
     </div> 
   )
