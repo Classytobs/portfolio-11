@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="text-blue-600">Tobs</div>
           </div>
 
-          <div className='flex flex-row text-xl gap-x-8'>
+          <div className='flex flex-row text-xl gap-x-6 md:gap-x-8'>
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#pr">Portfolio</a>
