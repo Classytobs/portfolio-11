@@ -6,17 +6,17 @@ export default function Contact() {
     const {theme}=useContext(ThemeContext);
 
   return (
-    <div id='contact' className={theme?'flex flex-col bg-slate-100 gap-y-8 min-h-screen px-32 text-black py-8 font-serif':
-    'flex flex-col bg-slate-800 gap-y-8 min-h-screen px-32 text-white py-8 font-serif'}>
+    <div id='contact' className={theme?'flex flex-col bg-slate-100 gap-y-8 min-h-screen px-6 md:px-16 lg:px-32 text-black py-8 font-serif':
+    'flex flex-col bg-slate-800 gap-y-8 min-h-screen px-6 md:px-16 lg:px-32 text-white py-8 font-serif'}>
         <div>
             <h1 className='text-4xl font-bold tracking-wide'>Contact Me</h1>
         </div>
-        <div className='flex flex-row justify-start gap-x-8 w-full'>
-            <div className='w-1/2 mr-8'>
+        <div className='flex flex-col md:flex-row lg:flex-row justify-start gap-y-8 gap-x-8 w-full'>
+            <div className='w-full md:w-1/2 md:mr-8'>
             <img src={illustrator2} alt='me'className='h-full w-full rounded-md'/>
 
             </div>
-            <div className='w-1/2'>
+            <div className='w-full md:w-1/2'>
             <form className='flex flex-col justify-between gap-y-6'>
                         <div className='flex flex-col'>
                             <label>
