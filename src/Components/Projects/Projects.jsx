@@ -10,8 +10,8 @@ export default function Projects() {
   const {theme}=useContext(ThemeContext);
 
   return (
-    <div id='pr' className={theme? 'flex flex-col text-black bg-slate-200 min-h-screen px-6 md:px-16 lg:px-32 gap-y-16 py-16 font-serif':
-    'flex flex-col bg-slate-900 text-white min-h-screen px-6 md:px-16 lg:px-32 gap-y-16 py-16 font-serif'}>
+    <div id='pr' className={theme? 'flex flex-col text-black bg-slate-200 min-h-screen px-6 md:px-16 lg:px-32 gap-y-8 py-16 font-serif':
+    'flex flex-col bg-slate-900 text-white min-h-screen px-6 md:px-16 lg:px-32 gap-y-8 py-16 font-serif'}>
 
               <div >
                 <h1 className='text-4xl font-bold tracking-wide mb-4'>Portfolio</h1>
