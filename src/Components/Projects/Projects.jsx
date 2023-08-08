@@ -20,7 +20,7 @@ export default function Projects() {
 
                 <div className='flex flex-col md:flex-row lg:flex-row gap-y-8 md:gap-x-8 lg:gap-x-8 border-2 border-blue-500 p-3 shadow-lg rounded-md'>
                 <img src={meta} alt='Meta Bnb React App' className='w-full md:w-1/3 lg:w-1/3 h-96 rounded-md shadow-lg' />
-                <div className='w-full md:w-2/3 lg:w-2/3 flex flex-col gap-y-2 justify-between md:ml-12 lg:ml-12'>
+                <div className='w-full md:w-2/3 lg:w-2/3 flex flex-col gap-y-4 justify-between md:ml-12 lg:ml-12'>
                   <div className='text-4xl font-bold'>A meta bnb app</div>
                   <div><h1 className='text-2xl leading-relaxed'>In a world where travel has become more than a journey—it's a quest for unique 
                   experiences MetaBNB emerges as a groundbreaking platform that redefines the way we explore and connect with
@@ -61,7 +61,7 @@ export default function Projects() {
 
                 <div className='flex flex-col md:flex-row lg:flex-row gap-y-8 md:gap-x-8 lg:gap-x-8 border-2 border-blue-500 p-3 shadow-lg rounded-md'>
                 <img src={speech} alt='Meta Bnb React App' className='w-full md:w-1/3 lg:w-1/3 h-96 rounded-md shadow-lg' />
-                <div className='w-full md:w-2/3 lg:w-2/3 flex flex-col gap-y-8 justify-between md:ml-12 lg:ml-12'>
+                <div className='w-full md:w-2/3 lg:w-2/3 flex flex-col gap-y-4 justify-between md:ml-12 lg:ml-12'>
                 <div className='text-4xl font-bold'>Speech synthetizer</div>
                   <div><h1 className='text-2xl leading-relaxed'> In the realm of modern technology, the power of the human voice is a force to be reckoned with.
                    To showcase my prowess in harnessing technology to create captivating user experiences,
@@ -82,7 +82,7 @@ export default function Projects() {
                 <div className='flex flex-col md:flex-row lg:flex-row gap-y-8 md:gap-x-8 lg:gap-x-8 border-2 border-blue-500 p-3 shadow-lg rounded-md'>
                 <img src={excuse} alt='Todo list app' className='w-full md:w-1/3 lg:w-1/3 h-96 rounded-md shadow-lg' />
 
-                <div className='w-full md:w-2/3 lg:w-2/3 flex flex-col gap-y-8 justify-between md:ml-12 lg:ml-12'>
+                <div className='w-full md:w-2/3 lg:w-2/3 flex flex-col gap-y-4 justify-between md:ml-12 lg:ml-12'>
                 <div className='text-4xl font-bold'>Excuse app</div>
                   <div><h1 className='text-2xl leading-relaxed'>In a fast-paced world filled with commitments and unexpected
                    twists, being courteous and considerate can sometimes be a challenge. To showcase my ability to leverage
