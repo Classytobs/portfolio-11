@@ -12,7 +12,7 @@ export default function About() {
     <div id='about' className={theme? 'bg-slate-200 flex flex-col md:flex-col lg:flex-col text-black justify-between  min-h-screen max-w-full px-6 md:px-16 lg:px-32 py-8 font-serif gap-y-2':
     'bg-slate-900 flex flex-col md:flex-col lg:flex-col text-white justify-between min-h-screen max-w-full px-6 md:px-16 lg:px-32 py-8 gap-y-2 font-serif'
      }>
-            <div className='text-4xl font-bold tracking-wide'>
+            <div className='text-4xl font-bold tracking-wide '>
                 <h1>About me</h1>
               </div>
 
