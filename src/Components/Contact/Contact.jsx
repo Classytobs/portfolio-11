@@ -9,7 +9,7 @@ export default function Contact() {
     <div id='contact' className={theme?'flex flex-col bg-slate-100 gap-y-8 min-h-screen px-6 md:px-16 lg:px-32 text-black py-8 font-serif':
     'flex flex-col bg-slate-800 gap-y-8 min-h-screen px-6 md:px-16 lg:px-32 text-white py-8 font-serif'}>
         <div>
-            <h1 className='text-4xl font-bold tracking-wide'>Contact Me</h1>
+            <h1 className='text-3xl md:text-4xl font-bold tracking-wide'>Contact Me</h1>
         </div>
         <div className='flex flex-col md:flex-row lg:flex-row justify-start gap-y-8 gap-x-8 w-full'>
             <div className='w-full md:w-1/2 md:mr-8'>

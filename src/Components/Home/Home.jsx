@@ -12,23 +12,23 @@ export default function Home() {
      }>
       <div className='flex flex-col justify-center font-serif pt-12 w-full md:w-1/2 lg:w-3/5 gap-y-4'>
             <div className='mb-8'>
-              <h1 className='text-6xl font-bold tracking-wide'>Hello, I'm Oluwatobi</h1>
+              <h1 className='text-5xl md:text-6xl font-bold tracking-wide'>Hello, I'm Oluwatobi</h1>
             </div>
 
             <div className='mb-8'>
-              <h1 className='text-2xl mb-2 font-bold'>Frontend developer</h1>
-              <h1 className='text-2xl leading-relaxed'> Experienced in web design and development, providing high-quality work. Very dedicated
+              <h1 className='text-xl md:text-2xl mb-2 font-bold'>Frontend developer</h1>
+              <h1 className='text-xl md:text-2xl leading-relaxed'> Experienced in web design and development, providing high-quality work. Very dedicated
               and hardworking, always working on my html, css and javascript skills</h1>
             
             </div>
             
             <div className='flex flex-row gap-x-4'>
-            <div className='border-solid mt-6 p-3 max-w-fit rounded-md text-white text-2xl 
+            <div className='border-solid mt-6 p-3 max-w-fit rounded-md text-white text-xl md:text-2xl 
               bg-blue-700 hover:bg-blue-500 cursor-pointer'>
                 <a href='#contact' >Contact me</a>
             </div>
 
-            <div className='border-2 border-blue-500 mt-6 p-3 max-w-fit rounded-md text-black text-2xl 
+            <div className='border-2 border-blue-500 mt-6 p-3 max-w-fit rounded-md text-black text-xl md:text-2xl 
               bg-slate-100 hover:bg-blue-700 hover:text-white cursor-pointer'>
                 <a href='#contact' >Download CV</a>
             </div>

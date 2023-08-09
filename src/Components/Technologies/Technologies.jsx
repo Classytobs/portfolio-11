@@ -19,7 +19,7 @@ export default function Technologies() {
     <div className={theme? 'flex flex-col text-black bg-slate-100 px-6 md:px-16 py-16 lg:px-32 font-serif':
     'flex flex-col bg-slate-800 text-white px-6 md:px-16 py-16 lg:px-32 font-serif'}>
                  <div>
-                 <h1 className='text-4xl pb-6 font-bold tracking-wide'>Tech Stack</h1>
+                 <h1 className='text-3xl md:text-4xl pb-6 font-bold tracking-wide'>Tech Stack</h1>
                 </div>
                 
                 <div className='flex flex-col md:flex-row justify-start gap-y-6'>
