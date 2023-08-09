@@ -11,7 +11,7 @@ export default function Footer() {
     'flex flex-col w-full justify-between items-center bg-slate-900 gap-y-8 content-center px-6 md:px-16 lg:px-32 py-5 font-serif text-white'}>
         <div className='flex flex-col md:flex-row w-full justify-between items-center content-center gap-y-8'>
 
-          <div href="#home"className='text-4xl cursor-pointer flex flex-row '>
+          <div href="#home"className='text-3xl md:text-4xl cursor-pointer flex flex-row '>
             <div>Classy</div>
             <div className="text-blue-600">Tobs</div>
           </div>
