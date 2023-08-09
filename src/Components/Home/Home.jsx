@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <div id='home' className={theme? 'bg-slate-100 flex flex-col md:flex-row lg:flex-row text-black justify-between content-center min-h-screen max-w-full items-center px-6 md:px-16 py-16 lg:px-32 font-serif':
-    'bg-slate-800 flex flex-col md:flex-row lg:flex-row text-white justify-between content-center min-h-screen max-w-full items-center px-6 md:px-16 lg:px-32 py-8 font-serif'
+    'bg-slate-800 flex flex-col md:flex-row lg:flex-row text-white justify-between content-center min-h-screen max-w-full items-center px-6 md:px-16 lg:px-32 py-16 font-serif'
      }>
       <div className='flex flex-col justify-center font-serif pt-12 w-full md:w-1/2 lg:w-3/5 gap-y-4'>
             <div className='mb-8'>
